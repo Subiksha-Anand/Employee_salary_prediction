@@ -4,7 +4,7 @@ import joblib
 
 
 # Load model and label encoders
-model = joblib.load(r"C:\Users\subik\OneDrive\Document\PROJECT\Employee_salary_prediction\best_lgbm_model.pkl")
+model = joblib.load("best_lgbm_model.pkl")
 
 # Define input fields
 st.title("Employee Income Prediction App")
